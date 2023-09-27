@@ -36,19 +36,18 @@ jobs:
         run: railway up
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
-      - name: Send custom JSON data to Slack workflow
+       - name: Send custom JSON data to Slack workflow
         id: slack
         uses: slackapi/slack-github-action@v1.24.0
         with:
           payload: |
                {
-                "text": "DipSA41C CI/CD Assignment Submission",
                 "blocks": [
                   {
-                    "type": "section",
+                    "type": "mrkdwn"
                     "text": {
                       "type": "mrkdwn",
-                      "text": "*WangYibing      *Email* \ne1280875@u.nus.edu     *Repository* <http://wwww> "
+                      "text": "*Dipsa41c CI/CD Assignment Submission* "
                     }
                   },
                   {
@@ -57,7 +56,7 @@ jobs:
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "*Deployment* \n<https://link-url-here.org> \n<https://link-url-here.org|Open application>"
+                        "text": "*Deployment* \n<https://https://dipsa41cicd-production-e206.up.railway.app/|Open application>"
                       }
                     ]
                   }
