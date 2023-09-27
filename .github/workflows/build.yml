@@ -41,16 +41,26 @@ jobs:
         uses: slackapi/slack-github-action@v1.24.0
         with:
           payload: |
-              {
+               {
                 "text": "DipSA41C CI/CD Assignment Submission",
                 "blocks": [
                   {
                     "type": "section",
                     "text": {
                       "type": "mrkdwn",
-                      "text": "Submission by :Kenneth , github url: https://xxxx "
+                      "text": "*Name* \nKenneth Phang                 *Matriculation* 123 \n*Email* \nfred@email.com               *Repository* <http://wwww> "
                     }
                   },
+                  {
+                    "type": "section",
+                    "block_id": "section789",
+                    "fields": [
+                      {
+                        "type": "mrkdwn",
+                        "text": "*Deployment* \n<https://link-url-here.org> \n<https://link-url-here.org|Open application>"
+                      }
+                    ]
+                  }
                 ]
               }
         env:
