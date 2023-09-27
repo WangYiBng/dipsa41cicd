@@ -48,7 +48,7 @@ jobs:
                     "type": "section",
                     "text": {
                       "type": "mrkdwn",
-                      "text": "Name: WangYibing"
+                      "text": "*WangYibing      *Email* \ne1280875@u.nus.edu     *Repository* <http://wwww> "
                     }
                   },
                   {
@@ -57,7 +57,7 @@ jobs:
                     "fields": [
                       {
                         "type": "mrkdwn",
-                        "text": "Github URL : xxxx"
+                        "text": "*Deployment* \n<https://link-url-here.org> \n<https://link-url-here.org|Open application>"
                       }
                     ]
                   }
