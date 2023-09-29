@@ -49,14 +49,14 @@ jobs:
                         "type": "section", 
                         "text": {
                         "type": "mrkdwn",
-                        "text": "Name : WangYibing"
+                        "text": "Name : WangYibing" 
                         }
                       },
                       {
                         "type": "section",
                         "text": {
                         "type": "mrkdwn",
-                        "text": "Matriculation Number : E1280875" 
+                        "text": "Matriculation Number : A0287200M"    
                         }
                       },
                       {
